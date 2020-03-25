@@ -1,4 +1,4 @@
-# my-cli
+# my-vue-cli
 
 ## Project setup
 ```
