@@ -1,24 +1,36 @@
 # my-vue-cli
 
-## Project setup
+## 项目介绍
+  这是一个为了方便自己进行vue开发，制定的自己的脚手架工具，
+  该项目定义了一些目录结构，如：api、common、base、components、router、store等
+
+## 项目安装
+
 ```
-npm install
+  npm install -g redlives-cli
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 项目初始化
 
-### Compiles and minifies for production
-```
-npm run build
-```
+  ```
+    redlives init <templentName> <projectName>
+  ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 查看帮助信息
+  
+  ```
+    redlives --help
+  ```
+  
+## 查看可用模板列表
+  
+  ```
+    redlives list
+  ```
+ 
+ 
+## 查看版本
+  
+  ```
+    redlives -V
+  ```
